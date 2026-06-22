@@ -1,0 +1,32 @@
+.news-page {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.news-page h1 {
+  font-size: 28px;
+  color: #145da0;
+  margin-bottom: 10px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.fallback {
+  text-align: center;
+  color: #888;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.results-for {
+  text-align: center;
+  color: #555;
+  margin-bottom: 16px;
+  font-size: 14px;
+}

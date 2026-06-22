@@ -1,0 +1,35 @@
+.weather-card {
+  background: linear-gradient(135deg, #4a90e2, #145da0);
+  color: white;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.weather-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.desc {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  padding: 12px;
+}
