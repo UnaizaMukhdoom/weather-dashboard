@@ -36,8 +36,4 @@ touch .env
 # 4. Start the development server
 npm start
 
-*Add your keys to .env*:
-REACT_APP_WEATHER_API_KEY=your_key_here
-REACT_APP_NEWS_API_KEY=your_key_here
-
 
