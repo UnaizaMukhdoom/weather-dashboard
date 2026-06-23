@@ -22,7 +22,7 @@ function useFetch(url) {
   }, [url]);
 
 useEffect(() => {
-  let cancelled = false;        // ← cleanup flag
+  let cancelled = false;       
 
   async function run() {
     if (!url) return;
@@ -32,7 +32,7 @@ useEffect(() => {
       const res = await fetch(url);
       if (!res.ok) throw new Error('Something went wrong!');
       const json = await res.json();
-      if (!cancelled) setData(json);      // ← only update if still mounted
+      if (!cancelled) setData(json);      
     } catch (err) {
       if (!cancelled) setError(err.message);
     } finally {
@@ -42,7 +42,7 @@ useEffect(() => {
 
   run();
 
-  return () => { cancelled = true; };    // ← this is the cleanup
+  return () => { cancelled = true; };    
 }, [url]);
 
     return { data, loading, error, retry: fetchData };
