@@ -31,6 +31,7 @@ News search with query parameters reflected in the URL (?topic=elon+musk). Displ
 
 
 🗂️ Project Structure:
+
 weather-dashboard/
 ├── public/
 │   └── index.html
