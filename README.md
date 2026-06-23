@@ -20,7 +20,10 @@ News search with query parameters reflected in the URL (?topic=elon+musk). Displ
 
 <img width="959" height="443" alt="image" src="https://github.com/user-attachments/assets/d81b8e41-bcf0-4ba1-99ad-babc61c8dcf7" />
 
+
+
  Features:
+ 
 🔍 Live weather search — search any city and get real-time weather data
 ⭐ Save cities — persist favourite cities using localStorage
 📰 News search — search news by topic with URL query param sync
