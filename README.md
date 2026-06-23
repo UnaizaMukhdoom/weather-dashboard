@@ -21,50 +21,8 @@ News search with query parameters reflected in the URL (?topic=elon+musk). Displ
 <img width="959" height="443" alt="image" src="https://github.com/user-attachments/assets/d81b8e41-bcf0-4ba1-99ad-babc61c8dcf7" />
 
 
-
-🚀 Features:
-
-
-🔍 Live weather search — search any city and get real-time weather data
-⭐ Save cities — persist favourite cities using localStorage
-📰 News search — search news by topic with URL query param sync
-🔗 React Router v7 — multi-page routing with /, /weather, /news
-🧠 Custom hooks — reusable useWeather and useNews API hooks
-⚡ Loading, error, retry & fallback states — robust UX for all network conditions
-🧩 Reusable components — Navbar, WeatherCard, NewsCard, SearchBar
-
-
-🗂️ Project Structure:
-
-weather-dashboard/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/          # Reusable UI components
-│   │   ├── Navbar.jsx
-│   │   ├── WeatherCard.jsx
-│   │   ├── NewsCard.jsx
-│   │   └── SearchBar.jsx
-
-│   ├── hooks/               # Custom React hooks
-│   │   ├── useWeather.js    # Encapsulates weather API logic
-│   │   └── useNews.js       # Encapsulates news API logic
-│   ├── pages/               # Route-level components
-│   │   ├── Home.jsx
-│   │   ├── Weather.jsx
-│   │   └── News.jsx
-│   ├── services/            # API call functions
-│   │   ├── api.js
-│   │  
-│   ├── App.js               # Router setup and route definitions
-│   └── index.js             # React DOM entry point
-├── .env                     # API keys (gitignored)
-├── .gitignore
-├── package.json
-└── README.md
-
-
 Installation:
+
 # 1. Clone the repo
 git clone https://github.com/UnaizaMukhdoom/weather-dashboard.git
 cd weather-dashboard
@@ -75,13 +33,11 @@ npm install
 # 3. Create your .env file
 touch .env
 
-Add your keys to .env:
-REACT_APP_WEATHER_API_KEY=your_key_here
-REACT_APP_NEWS_API_KEY=your_key_here
-
 # 4. Start the development server
 npm start
 
-
+*Add your keys to .env*:
+REACT_APP_WEATHER_API_KEY=your_key_here
+REACT_APP_NEWS_API_KEY=your_key_here
 
 
