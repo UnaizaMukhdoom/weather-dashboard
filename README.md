@@ -7,7 +7,8 @@ A  React application that combines live weather data and real-time news in one c
  🏠 Home Page
 The landing page with navigation to Weather and News sections.
 
-<img width="718" height="339" alt="image" src="https://github.com/user-attachments/assets/ba650ff3-818f-4f9f-bf07-e188f97446e1" />
+<img width="959" height="439" alt="image" src="https://github.com/user-attachments/assets/ef99e0f0-9558-41c8-811d-c1d8364f1a4c" />
+
 
 🌡️ Weather Page
 Live weather search with saved cities stored in localStorage. Shows temperature, humidity, wind speed, and feels-like temperature.
@@ -16,6 +17,7 @@ Live weather search with saved cities stored in localStorage. Shows temperature,
 
 
 📰 News Page
+
 News search with query parameters reflected in the URL (?topic=elon+musk). Displays article cards with images and descriptions.
 
 <img width="959" height="443" alt="image" src="https://github.com/user-attachments/assets/d81b8e41-bcf0-4ba1-99ad-babc61c8dcf7" />
